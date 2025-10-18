@@ -75,6 +75,8 @@ The dataset is compiled from multiple real-world sources:
 - 20% for testing
 The dataset was exhaustively annotated and cleaned to ensure high quality.
 
+<img src="Project images/dataset percent.png">
+
 ***
 
 ## Methodology
@@ -110,6 +112,9 @@ Classical ML algorithms tested include:
 - XGBoost Classifier
 
 Ensemble methods (voting and stacking) combined models for improved accuracy.
+
+<img src="Project images/Ensemble Model (Voting Classifier).png">
+
 
 ### Deep Learning Model
 
@@ -152,14 +157,20 @@ Ensemble methods (voting and stacking) combined models for improved accuracy.
 
 ### Architecture of Bi-LSTM Model
 
-### Confusion Matrix for Bi-LSTM
+<img src="Project images/Architecture Of Our Model.jpg">
+
+### Workflow of Machine Learning Model
+
+<img src="/Project images/Workflow of our Machine Learning Model.jpg">
 
 ### Model Accuracy Comparison
 
+<img src="Project images/Models Accuracy Comparison.png">
+
 ### ROC Curve for Bi-LSTM
 
+<img src="Project images/Roc Curve.png">
 
-***
 
 ## Limitations \& Future Work
 
@@ -168,7 +179,6 @@ Ensemble methods (voting and stacking) combined models for improved accuracy.
 - Scaling to multi-lingual and real-time systems is planned.
 - Future enhancements: dataset expansion, transfer learning, production deployment, user feedback integration.
 
-***
 
 ## Technologies Used
 
